@@ -35,11 +35,13 @@ namespace Calc
                         Console.WriteLine("Operation not supported: [" + ops + "]");
                         Console.WriteLine("Try again.");
                     }
-
+					
+					///WHAT DOES THIS DO?
                     string[] inputs = Console.ReadLine().Split(' ');
                     ops = inputs[0];
 					input1 = inputs[1];
 					input2 = inputs[2];
+					///WHAT DOES THIS DO?
                 }
 
                 // exit the app
